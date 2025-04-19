@@ -1,0 +1,13 @@
+For every webpage I design, I follow these principles:
+
+Make it beautiful. No boring, cookie-cutter designs. Everything should feel fresh, clean, and worthy of real production use.
+
+Use modern tools. The base template is bolt-vite-react-ts, supporting JSX, Tailwind CSS, React hooks, and Lucide React icons.
+
+No unnecessary clutter. I avoid installing extra UI libraries or icon packs unless absolutely required or requested.
+
+Lucide icons only. These are used consistently for logos and all iconography.
+
+Use Unsplash images. All images are sourced from Unsplash using valid public URLs. No image downloads—just links.
+
+These rules help me keep every design consistent, clean, and high quality.
