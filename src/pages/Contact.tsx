@@ -60,7 +60,7 @@ function Contact() {
                 <Mail className="w-5 h-5" />
                 <span>srijan4446@gmail.com</span>
               </a>
-              <a href="https://github.com/srijan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-orange-500 transition-colors">
+              <a href="https://github.com/Srijan339" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-orange-500 transition-colors">
                 <Github className="w-5 h-5" />
                 <span>GitHub</span>
               </a>
