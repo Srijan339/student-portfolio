@@ -64,11 +64,11 @@ function Contact() {
                 <Github className="w-5 h-5" />
                 <span>GitHub</span>
               </a>
-              <a href="https://linkedin.com/in/srijan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-orange-500 transition-colors">
+              <a href="https://www.linkedin.com/in/srijan-k-1459941ba" _blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-orange-500 transition-colors">
                 <Linkedin className="w-5 h-5" />
                 <span>LinkedIn</span>
               </a>
-              <a href="https://instagram.com/srijan__33" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-orange-500 transition-colors">
+              <a href="https://www.instagram.com/srijan__3" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-orange-500 transition-colors">
                 <Instagram className="w-5 h-5" />
                 <span>Instagram</span>
               </a>
