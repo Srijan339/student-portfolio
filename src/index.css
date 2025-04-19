@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-900;
+}
+
+/* Animated background */
+.animated-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes blob {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Navigation */
+.nav-link {
+  @apply px-4 py-2 rounded-lg transition-all duration-300 relative overflow-hidden hover:text-orange-500;
+}
+
+.nav-link::before {
+  content: '';
+  @apply absolute inset-0 bg-orange-500 opacity-0 transition-opacity duration-300 -z-10;
+}
+
+.nav-link:hover::before {
+  @apply opacity-10;
+}
+
+/* Social Icons */
+.social-icon-link {
+  @apply text-gray-400 hover:text-orange-500 transition-colors duration-300 hover:scale-110 transform;
+}
+
+/* Skills Cards */
+.skill-card {
+  @apply bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50 hover:border-orange-500/50 transition-all duration-300 transform hover:-translate-y-2;
+}
+
+.skill-icon {
+  @apply w-12 h-12 bg-gradient-to-br from-orange-500 to-pink-500 rounded-lg flex items-center justify-center mb-4;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-orange-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-orange-600;
+}
